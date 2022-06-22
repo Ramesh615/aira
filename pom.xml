@@ -102,9 +102,7 @@
 				</configuration>
 
 
-    <inherited>true</inherited>
- 
-    <artifactId>maven-compiler-plugin</artifactId>              
+               </plugin>
 
     
              
