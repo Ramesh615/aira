@@ -87,7 +87,7 @@
 
 	<build>
 		<plugins>
-			<plugin>
+			
 
 Usually, define maven-compiler-plugin is sufficient enough. add the following to your compiler plugin definition.
 
