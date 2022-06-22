@@ -1,7 +1,7 @@
 package net.guides.springboot2.springboot2jpacrudexample;
 
 import org.springframework.boot.SpringApplication;
- import org.springframework.boot.context.web.SpringBootServletInitializer;
+import org.springframework.boot.web.servlet.ServletContextInitializer;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
