@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})
 
 @SpringBootApplication(exclude= {SecurityAutoConfiguration.class})
-public class Application {
+public class Application extends SpringBootServletInitializer{
 	
 	public static void main(String[] args) { 
 		SpringApplication.run(Application.class, args); 
