@@ -87,17 +87,9 @@
 
 	<build>
 		<plugins>
-			<plugin>
-
-Usually, define maven-compiler-plugin is sufficient enough. add the following to your compiler plugin definition.
-
+			
 <plugin>
-              Usually, define maven-compiler-plugin is sufficient enough. add the following to your compiler plugin definition.
-
-           Usually, define maven-compiler-plugin is sufficient enough. add the following to your compiler plugin definition.
-
-
-
+              
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
@@ -110,6 +102,11 @@ Usually, define maven-compiler-plugin is sufficient enough. add the following to
 				</configuration>
 
 
+    <inherited>true</inherited>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>              
+
+    
              
 
  
