@@ -110,9 +110,7 @@ Usually, define maven-compiler-plugin is sufficient enough. add the following to
 				</configuration>
 
 
-    <inherited>true</inherited>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>              
+             
 
  
 		</plugins>
