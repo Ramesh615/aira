@@ -87,7 +87,7 @@
 
 	<build>
 		<plugins>
-			
+			<plugin>
 
 Usually, define maven-compiler-plugin is sufficient enough. add the following to your compiler plugin definition.
 
@@ -108,13 +108,7 @@ Usually, define maven-compiler-plugin is sufficient enough. add the following to
 						</exclude>
 					</excludes>
 				</configuration>
-			</plugin>
-<plugin>
-    <inherited>true</inherited>
-    <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-compiler-plugin</artifactId>              
 
-    </plugin>
 
 		</plugins>
 	</build>
